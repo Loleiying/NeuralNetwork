@@ -1,0 +1,12 @@
+name: NeuralNetwork
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - spyder=5.2.*
+  - matplotlib=3.5.*
+  - pandas=1.3.4
+  - scikit-learn=1.0.1
+  - pip:
+    - tensorflow
